@@ -52,10 +52,6 @@
 &none     &kp Z        &kp X        &kp C       &kp V       &kp B   &kp LBKT  &kp RBKT &kp N   &kp M       &kp COMMA   &kp DOT      &kp FSLH        &kp RET
                                     &none       &none       &mo 1   &kp SPACE &kp RET  &mo 1   &kp LBKT    &kp RBKT
             >;
-
-
-
-
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
@@ -66,10 +62,7 @@
 &trans       &trans           &trans                                 &trans            &trans       &trans                          &kp LEFT   &kp UP   &kp DOWN   &kp RIGHT  &trans       &trans
 &trans       &trans           &trans                                 &trans            &trans       &trans    &kp BT_PRV &kp BT_NXT &trans     &trans   &trans     &trans     &trans       &trans
                                                                      &trans            &trans       &trans    &trans     &trans     &trans     &trans   &trans
-/* &trans       &trans       &trans                                 &trans &trans &trans &kp BT_PRV &kp BT_NXT &trans     &trans   &trans     &trans     &trans       &trans */
-/*                                                                  &trans &trans &trans &trans     &trans     &trans     &trans   &trans */
             >;
-
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
